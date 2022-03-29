@@ -11,51 +11,24 @@ const {
   deleteFriend,
 } = require('../../controllers/user-controller');
 
-const {
-  getAllThoughts,
-  getThoughtsById,
-  createThought,
-  updateThought,
-  deleteThought,
-  createReaction,
-  deleteReaction,
-} = require('../../controllers/thought-controller');
 
 //  /api/user
 router
-    .route('/user')
+    .route('/')
     .get(getAllUsers)
     .post(createUser);
 
 //  /api/user/:id
 router
-    .route('/user/:id')
+    .route('/:id')
     .get(getUserById)
     .put(updateUser)
     .delete(deleteUser);
 
-//  /api/users/:userId/friends/:friendId
-    route('users/:userId/friends/:friendId')
-    .post(createFriend)
-    .delete(deleteFriend);
-
-//  /api/thought
 router
-    .route('/thought')
-    .get(getAllThoughts)
-    .post(createThought);
+    .route('/:userId/friends/:friendId')
+    // .post(createFriend)
+    // .delete(deleteFriend);
 
-//  /api/thought/:id
-router
-    .route('/thought/:id')
-    .get(getThoughtsById)
-    .put(updateThought)
-    .delete(deleteThought);
-
-//  /api/thoughts/:thoughtId/reactions
-router
-    .route('/api/thoughts/:thoughtId/reactions')
-    .post(createReaction)
-    .delete(deleteReaction);
 
 module.exports = router;

@@ -1,4 +1,4 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 const dateFormat = require('../utils/dateFormat');
 
 const ReactionsSchema = new Schema(
@@ -46,7 +46,7 @@ const ThoughtSchema = new Schema(
     username: {
         type: String,
         required: true,
-     // refrence user?
+        ref: 'User'
       },
       reactions: [ReactionsSchema],
     
@@ -54,6 +54,7 @@ const ThoughtSchema = new Schema(
   {
     toJSON: {
       virtuals: true,
+      getters: true,
     },
     id: false,
   }

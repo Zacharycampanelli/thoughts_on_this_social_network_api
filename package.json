@@ -1,7 +1,6 @@
 {
   "name": "social_network_api",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,5 +13,15 @@
     "mongodb": "^4.4.1",
     "mongoose": "^6.2.8",
     "node": "^17.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zacharycampanelli/thoughts_on_this_social_network_api.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Zacharycampanelli/thoughts_on_this_social_network_api/issues"
+  },
+  "homepage": "https://github.com/Zacharycampanelli/thoughts_on_this_social_network_api#readme",
+  "description": ""
 }
