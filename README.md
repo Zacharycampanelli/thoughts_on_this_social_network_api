@@ -20,7 +20,7 @@ Clone this repository to your computer. Navigate to the root folder then run `np
 
   
 ## Usage
-Open a separate command line and start mysql with the command `mongo`, then `use social_network_api` to ensure you are using the database for this application. Begin the application by running the command `node server.js` Then you may exit mysql. If you wish to seed the database, use the command `node seeds/index.js`. To start the application, use `node server.js`. Use an API client, such as insomnia, to test and use the routes in this application
+Open a separate command line and start mysql with the command `mongo`, then `use social_network_api` to ensure you are using the database for this application. Begin the application by running the command `node server.js` or `npm start`. Then you may exit mysql. If you wish to seed the database, use the command `node seeds/index.js`. To start the application, use `node server.js`. Use an API client, such as insomnia, to test and use the routes in this application
 
 
   
@@ -37,4 +37,7 @@ If you have any questions, concerns, or comments, feel free to contact me:
 -GitHub: [Zacharycampanelli](https://github.com/Zacharycampanelli)  
 -Email: [zaccamp@optonline.net](mailto:zaccamp@optonline.net)
 
-## Walkthough
+## Video Walkthough
+-[Part 1](https://drive.google.com/file/d/1CN4MUx8bwxUym5NbYwQrr968ZX-biK04/view)  
+-[Part 2](https://drive.google.com/file/d/1-J1Ogt91PrwKsotD24QIQDhC0cpHyToX/view)  
+-[Part 3](https://drive.google.com/file/d/1ZYqBl8e3ciwWaVF3ez9tx9fAGY-1EnS2/view) 

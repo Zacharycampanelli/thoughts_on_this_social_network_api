@@ -24,5 +24,6 @@
     "url": "https://github.com/Zacharycampanelli/thoughts_on_this_social_network_api/issues"
   },
   "homepage": "https://github.com/Zacharycampanelli/thoughts_on_this_social_network_api#readme",
-  "description": ""
+  "description": "![license badge](https://img.shields.io/badge/license-mit-green)",
+  "devDependencies": {}
 }

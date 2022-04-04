@@ -125,7 +125,7 @@ const thoughtController = {
   },
 
   // delete reaction
-  //  /api/thought/:thoughtId/:reactioinId
+  //  /api/thought/:thoughtId/:reactionId
   deleteReaction({ params }, res) {
     Thought.findOneAndUpdate(
       { _id: params.thoughtId },
